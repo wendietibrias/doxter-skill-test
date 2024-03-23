@@ -1,10 +1,9 @@
 
 type SectionTitleProps = {
     title: string;
-    sub?:string;
 }
 
-const SectionTitle = ({ title,sub }: SectionTitleProps) => {
+const SectionTitle = ({ title }: SectionTitleProps) => {
     return (
         <header className="section--title">
           <h3>{title}</h3>

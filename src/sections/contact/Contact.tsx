@@ -1,4 +1,4 @@
-import { FilledButton, SectionTitle } from "../../components";
+import {  SectionTitle } from "../../components";
 import "./contact.css";
 
 const ContactSection = () => {
