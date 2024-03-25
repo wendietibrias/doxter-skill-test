@@ -62,10 +62,12 @@
 
     .hero--section-image{
         border:none;
+        height:350px;
     }
 
     .hero--section-image img{
-         width:300px;
+         width:250px;
+         height:350px;
          top:0;
          right:0;
     }
@@ -84,9 +86,18 @@
     .hero--section-description {
         max-width:350px;
     }
+
+    
+    .hero--section-description h1 {
+        font-size:2.1rem;
+    }
+
+    .hero--section-description p {
+        font-size:0.85rem;
+    }
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:700px) {
     .hero--section{ 
         max-width:100%;
         padding:0 1.5rem;
@@ -97,11 +108,4 @@
         display:none;
     }
 
-    .hero--section-description h1 {
-        font-size:2.1rem;
-    }
-
-    .hero--section-description p {
-        font-size:0.85rem;
-    }
 }

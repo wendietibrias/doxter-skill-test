@@ -52,11 +52,38 @@
     }
 }
 
+@media screen and (max-width:760px) {
+    .about--section {
+         max-width:100%;
+    }
+
+    .about--section-content{
+        margin-top:3rem;
+        flex-direction: column;
+        row-gap:1.5rem;
+    }
+
+    .about--section-image {
+       width:100%;
+    }
+
+    .about--section-image img {
+        border-radius:12px;
+        width:100%;
+        object-fit: cover;
+        height:400px;
+    }
+}
+
 @media screen and (max-width:620px) {
     .about--section {
         max-width:100%;
         padding:1rem 1.5rem 6rem;
     }
+
+    .about--section-image {
+        width:100%;
+     }
 
     .about--section-content{
         margin-top:3rem;

@@ -200,7 +200,7 @@ button,p,input,textarea,a {
 
 }
 
-@media screen and (max-width:620px) {
+@media screen and (max-width:660px) {
   .navbar--content {
      max-width:100%;
      padding:0 1.5rem;

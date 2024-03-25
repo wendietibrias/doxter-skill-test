@@ -51,6 +51,8 @@
     font-weight: 600;
 }
 
+
+
 @media screen and (max-width:620px) {
     .contact--section{
         padding:1rem 1.5rem 6rem;

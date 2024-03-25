@@ -76,6 +76,13 @@
     }
 }
 
+@media screen and (max-width:760px) {
+    .portofolio--section-items{
+        grid-template-columns: repeat(2,1fr);
+        row-gap:1rem;
+    }
+}
+
 @media screen and (max-width:520px) {
     .portofolio--section {
         width: 100%;
